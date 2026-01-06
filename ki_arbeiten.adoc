@@ -10,24 +10,24 @@
 
 == Codegenerierung
 
-=== Bugfixing
+=== Bugfixing (1)
 
 image::images/codegenerierung/bugfixing01.png[]
 
-=== Bugfixing
+=== Bugfixing (1)
 
 image::images/codegenerierung/bugfixing02.png[]
 
-=== Bugfixing
+=== Bugfixing (1)
 
 image::images/codegenerierung/bugfixing03.png[]
 
-=== Bugfixing
+=== Bugfixing (2)
 
 image::images/codegenerierung/bugfixing04.png[]
 
 [.columns.is-vcentered]
-=== Komplette Software
+=== Komplette Software 
 
 [.column]
 --
@@ -43,44 +43,18 @@ image::images/codegenerierung/software_part_2.png[]
 image::images/codegenerierung/software_part_3.png[]
 --
 
+== Wissensmanagement
 
-
-== Ziele
-
-* Textbausteine zu einem Thema, z.B. &laquo;Hecken&raquo; oder &laquo;Biber&raquo;, erstellen lassen.
+=== Ausgangslage + Ziele
+* Viel Wissen in vielen Dokumenten
 * Wissensmanagement allgemein
+* Textbausteine zu einem Thema erstellen lassen
 
-== Lösungsidee: RAG
-
-Retrieval-Augmented Generation =  _&laquo;Generieren [z.B. von Text] ergänzt durch Abrufen [von Informationen]&raquo;_
-
-[.columns.is-vcentered]
-== Technologie-Stack
-
-[.column]
---
-image::images/postgresql.svg[]
-
-PostgreSQL
---
-[.column]
---
-image::images/spring_boot.svg[]
-
-Spring Boot / Spring AI
---
-[.column]
---
-image::images/openai.svg[] 
-
-OpenAI
---
-
-== Resultat
+=== Proof of Concept
 
 image::images/resultat01.png[]
 
-== Lessons learned
+=== Lessons learned
 
 === Metadaten
 
@@ -96,14 +70,6 @@ icon:meh-o[] DOCX
 
 icon:frown-o[] PDF  
 
-=== Kapitelweise Chunking-Strategie
-
-image::images/chunks_chapters01.png[]
-
-===  2-Schritt-Verfahren
-
-_&laquo;Retrieve with chunks, generate with documents: Find relevant documents via chunks but chat with whole documents.&raquo;_
-
-== Coming Next
+== Web GIS goes KI
 
 image::images/coming_next.png[]
