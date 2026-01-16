@@ -73,3 +73,8 @@ icon:frown-o[] PDF
 == Web GIS goes KI
 
 image::images/coming_next.png[]
+
+=== Vorteile
+
+- Natürliche Sprache
+- Schreibfehler
